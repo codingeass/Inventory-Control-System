@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.2
+Created-By: 1.7.0_40-b43 (Oracle Corporation)
+Trusted-Only: true
+Codebase: *
+Permissions: all-permissions
+Application-Name: Inventory Control System
+
