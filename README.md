@@ -23,7 +23,7 @@ Name of the database used is **practise** .
     Item 2
     Item 3
     Item 4
-### Structure of Table with there description 
+### Structure of Table with their description 
 
 ####Item1 table -
 It is related to storage of data of item that the company have
