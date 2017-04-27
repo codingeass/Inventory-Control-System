@@ -7,14 +7,14 @@ The Prgramming Language used is **Java** .
 
 For handling data it uses **MySQL** database.
 
-###About this system###
+### About this system ###
 An Inventory Control System is an integrated package of software and hardware used in warehouse operation, and elsewhere, to monitor the quantity, location and status of inventory as well as the related shipping, receiving, picking and put away process. In common usage, the term may also refer to just the software components. The system will keep a log of the spares available and also be intelligent enough which spares have been taken from which supplier and in which quantity plus the amount of spares being sold to individual customer under what requirement. It will also indicate how many spares will be available for individual sectors and what should be the buying price so that we have a selling profit . Inventory Control System also include system to sell products and create bill. It include java source code, ODBC, MySQL . 
 
 Front End of this Application look like this
 
 ![TDD](http://i.imgur.com/o7TbB6u.png?1)
 
-##MySQL database 
+## MySQL database 
 
 Name of the database used is **practise** .
 ### Tables used by this System  ###
@@ -25,7 +25,7 @@ Name of the database used is **practise** .
     Item 4
 ### Structure of Table with their description 
 
-####Item1 table -
+#### Item1 table -
 It is related to storage of data of item that the company have
 
 | S.NO.         | Column Name   | Data Type | Size | Key | NULL |
@@ -35,7 +35,7 @@ It is related to storage of data of item that the company have
 | 3 | rate      |    Float | 13,2 |  | YES |
 | 4 | stock_in_hand    | Integer  |    7 |  | YES | 
 
-####Item2 table -
+#### Item2 table -
 It is related to storage of data of customers of company. 
 
 | S.NO.         | Column Name   | Data Type | Size | Key | NULL |
@@ -48,7 +48,7 @@ It is related to storage of data of customers of company.
 | 6 | pin_no      |    Integer | 6 |  | YES |
 | 7 | phone_no    | Integer  |    15 |  | YES | 
 
-####Item3 table -
+#### Item3 table -
 It is related to storage of bill history of sold products.
 
 | S.NO.         | Column Name   | Data Type | Size | Key | NULL |
@@ -64,7 +64,7 @@ It is related to storage of bill history of sold products.
 | 9 | Discount      |    Float | 13,2 |  | YES |
 | 10 | Netamount    | Float  |    13,2 |  | YES | 
 
-####Item4 table -
+#### Item4 table -
 It is stores data of suppliers of company . 
 
 | S.NO.         | Column Name   | Data Type | Size | Key | NULL |
@@ -77,7 +77,7 @@ It is stores data of suppliers of company .
 | 6 | pin_no      |    Integer | 6 |  | YES |
 | 7 | phone_no    | Integer  |    15 |  | YES | 
 
-##Set up this project in your System 
+## Set up this project in your System 
 
 Open all the files in this repositry in your ide, i used Netbean IDE here.
 
