@@ -1,4 +1,4 @@
-Inventory Control System
+Inventory Control System (School Project)
 ========================
 
 Software in Java to control the buying and Selling of inventories.Helps in interaction between producer and consumer
